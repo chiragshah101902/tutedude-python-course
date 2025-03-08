@@ -1,6 +1,4 @@
-# tutedude-python-course
-This is my first git repo  
-Author - My Name
+# ASSIGNMENT 1
 
 ## Task 1: Perform Basic Mathematical Operations
 Problem Statement: Write a Python program that does the following:
