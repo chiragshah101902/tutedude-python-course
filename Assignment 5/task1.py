@@ -1,13 +1,17 @@
-def factorial(n):
-    # Base case: factorial of 0 or 1 is 1
-    if n == 0 or n == 1:
-        return 1
-    else:
-        return n * factorial(n - 1)
+# Step 1: Create a dictionary of student marks
+student_marks = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 78,
+    "David": 88,
+    "Eva": 91
+}
 
-# Call the function with a sample number
-myNumber = 5
-result = factorial(myNumber)
+# Step 2: Ask the user to input a student's name
+student_name = input("Enter the student's name: ")
 
-# Print the result
-print(f"The factorial of {myNumber} is {result}")
+# Step 3: Retrieve and display the corresponding marks
+if student_name in student_marks:
+    print(student_name + "'s marks: " + str(student_marks[student_name]))
+else:
+    print("Student not found.")

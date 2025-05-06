@@ -1,16 +1,17 @@
 # ASSIGNMENT 1
 
-##  Calculate Factorial Using a Function 
+##  Task 1: Create a Dictionary of Student Marks
 Problem Statement: Write a Python program that:
-1. Defines a function named factorial that takes a number as an argument and calculates its factorial using a loop or recursion.
-2. Returns the calculated factorial.
-3. Calls the function with a sample number and prints the output.
+1. Creates a dictionary where student names are keys and their marks are values.
+2. Asks the user to input a student's name.
+3. Retrieves and displays the corresponding marks.
+4. If the student’s name is not found, display an appropriate message.
 
-## Task 2: Using the Math Module for Calculations
+
+## Task 2: Demonstrate List Slicing 
 Problem Statement: Write a Python program that:
-1. Asks the user for a number as input.
-2. Uses the math module to calculate the:
-    - Square root of the number
-    - Natural logarithm (log base e) of the number
-    - Sine of the number (in radians)
-3. Displays the calculated results.
+1. Creates a list of numbers from 1 to 10.
+2. Extracts the first five elements from the list.
+3. Reverses these extracted elements.
+4. Prints both the extracted list and the reversed list
+

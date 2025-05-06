@@ -1,22 +1,9 @@
-import math
+# Create a list of numbers from 1 to 10
+numbers = list(range(1, 11))
+first_five = numbers[:5]
+reversed_first_five = first_five[::-1]
 
-def MathModueFunction():
-    number = float(input("Enter a number: "))
 
-    if number >= 0:
-        sqrt_value = math.sqrt(number)
-
-    # Calculate natural log
-    if number > 0:
-        log_value = math.log(number)
-    else:
-        log_value = "undefined (logarithm of non-positive number is undefined)"
-
-    sine_value = math.sin(number)
-
-    # Display results
-    print("Square root :", sqrt_value)
-    print("Logarithm :", log_value)
-    print("Sine:", sine_value)
-
-MathModueFunction()
+print("Original list:", numbers)
+print("Extracted list (first five elements):", first_five)
+print("Reversed list:", reversed_first_five)
